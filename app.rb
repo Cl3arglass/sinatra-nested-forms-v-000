@@ -25,6 +25,7 @@ module FormsLab
   #     erb :"pirates/show"
   #   end
   "#{params[:pirate][:ships]}"
+end
 
   end
 end
