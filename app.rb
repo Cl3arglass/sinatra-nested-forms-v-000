@@ -5,5 +5,13 @@ module FormsLab
 
     # code other routes/actions here
 
+    get '/' do
+      erb :new
+    end
+
+    post '/pirate' do
+      erb
+    end
+
   end
 end
